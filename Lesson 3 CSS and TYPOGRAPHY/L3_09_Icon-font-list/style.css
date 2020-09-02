@@ -1,0 +1,10 @@
+@import 'https://use.fontawesome.com/releases/v5.14.0/css/all.css';
+
+body {
+    padding: 50px;
+    line-height: 1.5;
+}
+
+li {
+    list-style: none;
+}
