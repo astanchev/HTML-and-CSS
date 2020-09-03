@@ -1,0 +1,35 @@
+html {
+    box-sizing: border-box;
+    padding: 50px 100px;
+    font-family: Helvetica, sans-serif;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+header h1 {
+    display: inline-block;
+}
+
+main {
+    border-top: 2px solid black;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: green;
+}
+
+nav {
+    display: inline-block;
+    margin-left: 50px;
+}
