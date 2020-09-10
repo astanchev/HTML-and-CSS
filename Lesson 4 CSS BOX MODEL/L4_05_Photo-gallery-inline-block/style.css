@@ -11,11 +11,13 @@ html {
 body {
     max-width: 60%;
     margin: 50px auto;
+    background-color: #ccc;
 }
 
 li{
     list-style: none;
     display: inline-block;
+    background-color: white;
     border: 0.4rem solid #000000;
     width: 30%;
     overflow: hidden;
