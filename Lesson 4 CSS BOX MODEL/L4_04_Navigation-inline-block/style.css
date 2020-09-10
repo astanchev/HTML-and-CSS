@@ -33,3 +33,7 @@ nav {
     display: inline-block;
     margin-left: 50px;
 }
+
+.uppercase {
+    text-transform: uppercase;
+}
