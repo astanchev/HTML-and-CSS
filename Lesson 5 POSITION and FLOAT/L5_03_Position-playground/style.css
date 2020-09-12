@@ -9,3 +9,60 @@ html {
 *:before {
     box-sizing: inherit;
 }
+
+div:nth-child(1) {
+    background: linear-gradient(to right, #195C9C, #42CAA1);
+}
+
+div:nth-child(2){
+    background: linear-gradient(to right, #A83378, #D18014);
+}
+
+div.viewport {
+    position: relative;
+    width: 100vw;
+    height: 50vh;
+}
+
+.card {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card img {
+    display: block;
+    width: auto;
+    height: 30vh;
+}
+
+.card:before,
+.card:after {
+    display: block;
+    content: '';
+}
+
+section.card:after {
+    font-family: "Font Awesome 5 Free";
+    font-size: 20px;
+    font-weight: 900;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    color: white;
+}
+
+div:nth-child(1) > section.card:after {
+    content: '\f0c1';
+}
+
+div:nth-child(2) > section.card:after {
+    content: '\f005';
+}
+
+
