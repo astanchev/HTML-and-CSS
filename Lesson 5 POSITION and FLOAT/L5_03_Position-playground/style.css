@@ -47,6 +47,18 @@ div.viewport {
     content: '';
 }
 
+i.fa {
+    font-family: "Font Awesome 5 Free";
+    font-size: 20px;
+    font-weight: 900;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    color: white;
+}
+
+/* With after element for icons
+
 section.card:after {
     font-family: "Font Awesome 5 Free";
     font-size: 20px;
@@ -63,6 +75,6 @@ div:nth-child(1) > section.card:after {
 
 div:nth-child(2) > section.card:after {
     content: '\f005';
-}
+} */
 
 
