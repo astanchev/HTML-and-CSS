@@ -8,6 +8,12 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
 ul {
     margin: 0;
     padding: 0;
@@ -25,12 +31,16 @@ ul a:hover {
     text-decoration: underline;
 }
 
-header {
+body>header {
     background-color: lightgray;
     border-bottom: 2px solid darkblue;
     padding: 20px 20px;
     display: flex;
     align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 nav>ul {
@@ -48,7 +58,7 @@ nav li {
     text-transform: uppercase;
 }
 
-button.login{
+button.login {
     text-transform: uppercase;
     font-weight: bold;
     border-radius: 5px;
@@ -75,13 +85,14 @@ button.login{
 
 .main-aside-container {
     display: flex;
+    flex: 1;
     padding: 40px 40px 0 40px;
     align-items: flex-start;
 }
 
 .main-aside-container aside {
     order: -1;
-    flex: 0 1 15%;
+    flex: 0 0 15%;
     border: 1px solid black;
     border-radius: 10px;
     padding: 10px;
@@ -126,12 +137,13 @@ button.login{
     margin-top: 0;
 }
 
-.card footer{
+.card footer {
     padding: 10px;
     background-color: antiquewhite;
 }
 
-.card header, .card footer{
+.card header,
+.card footer {
     display: flex;
     justify-content: center;
     align-items: center;
