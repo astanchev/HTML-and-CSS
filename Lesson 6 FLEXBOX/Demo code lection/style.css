@@ -1,0 +1,79 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav>ul li>a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+ul a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: lightgray;
+    border-bottom: 2px solid darkblue;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+.logo {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+button.login{
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 0;
+    padding: 5px 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.search-field {
+    background-color: darkgray;
+    display: inline-flex;
+    flex: 1;
+    margin: 0 40px;
+}
+
+.search-field input {
+    flex: 1;
+    background: transparent;
+    border: 0;
+    border-radius: 5px;
+    overflow: hidden;
+}
