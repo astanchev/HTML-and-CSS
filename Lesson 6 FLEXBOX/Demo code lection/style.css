@@ -31,7 +31,7 @@ ul a:hover {
     text-decoration: underline;
 }
 
-body header {
+body header, body>footer {
     background-color: lightgray;
     border-bottom: 2px solid darkblue;
     padding: 20px 20px;
@@ -42,7 +42,7 @@ body header {
     top: 0;
 }
 
-body>header {
+body>header, body>footer {
     z-index: 1;
 }
 
@@ -100,6 +100,8 @@ button.login {
     border-radius: 10px;
     padding: 10px;
     margin-right: 30px;
+    top: 130px;
+    position: sticky;
 }
 
 .main-aside-container main {
@@ -152,4 +154,16 @@ button.login {
     align-items: center;
     font-weight: bold;
     font-size: 20px;
+}
+
+body>footer {
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: gray;
+    border-top: 1px solid darkblue;
 }
