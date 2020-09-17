@@ -41,16 +41,11 @@ span {
     min-height: 100px;
 }
 
-.weekend-day {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-}
-
+.weekend-day,
 .workday {
+    flex: 1;
     display: flex;
     justify-content: center;
-    flex: 1;
 }
 
 .weekend,
