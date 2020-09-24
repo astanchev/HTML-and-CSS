@@ -62,6 +62,7 @@ blockquote {
 
 blockquote p {
     padding-left: 30px;
+    line-height: 2;
     font-weight: bold;
 }
 
