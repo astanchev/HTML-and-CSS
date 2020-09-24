@@ -31,6 +31,7 @@ body > article p {
 table {
     width: 100%;
     border: 1px solid rgb(150, 150, 150);
+    border-collapse: collapse;
 }
 
 th {
@@ -47,6 +48,11 @@ tr:nth-child(odd) {
 th, td {
     padding: 5px;
     border: 1px solid rgb(150, 150, 150);
+}
+
+table tbody tr:hover{
+    background-color: black;
+    color: white;
 }
 
 blockquote {
