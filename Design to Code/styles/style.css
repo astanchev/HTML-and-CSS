@@ -1,58 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import 'https://use.fontawesome.com/releases/v5.14.0/css/all.css';
 
-body{
+
+body {
     font-family: "Open sans", sans-serif;
     margin: 0;
 }
 
-.btn{
+.btn {
     border-radius: 20px;
-    padding: 5px 10px;
+    padding: 10px 15px;
     font-size: 16px;
+    outline: none;
 }
 
-.btn:hover{
+.btn:hover {
     cursor: pointer;
 }
 
-.btn-outline-light{
+.btn-outline-light {
     border: 2px solid white;
-}
-
-/* Later in css if .btn is not use now the color is overwritten. Now the selector is more heavy and can't be overwritten*/
-.btn.btn-outline-light a{
+    background: transparent;
     color: white;
 }
 
-.site-header{
-    background: linear-gradient(90deg, rgba(255,99,94,1) 0%, rgba(209,51,91,1) 75%);
-    padding: 20px 40px;
+.btn.btn-primary {
+    background: linear-gradient(90deg, rgba(253, 113, 109, 1) 0%, rgba(216, 74, 109, 1) 85%);
+    box-shadow: 1px -1px 37px 0px rgba(0, 0, 0, 0.38);
 }
 
-.site-header-navigation{
+/* Later in css if .btn is not use now the color is overwritten. Now the selector is more heavy and can't be overwritten*/
+.btn.btn-primary a {
+    color: white;
+    text-transform: capitalize;
+}
+
+.btn.btn-light {
+    background: white;
+    border: none;
+    font-weight: 700;
+    color: rgb(226, 59, 87);
+}
+
+.site-header {
+    background: url('../assets/bg-wave.png'), linear-gradient(90deg, rgba(255, 99, 94, 1) 0%, rgba(209, 51, 91, 1) 75%);
+    padding: 20px 40px 150px;
+    display: flex;
+    flex-flow: column wrap;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: contain;
+}
+
+.site-header-navigation {
     display: flex;
     justify-content: space-between;
 }
 
-.site-header-navigation-image-wrapper{
+.site-header-navigation-image-wrapper {
     max-width: 100px;
     overflow: hidden;
 }
 
-.site-header-navigation-image-wrapper img{
+.site-header-navigation-image-wrapper img {
     width: 100%;
 }
 
-.site-header-content-list{
+.site-header-content-list {
     display: flex;
+    align-items: center;
 }
 
-.site-header-content-list-item{
+.site-header-content-list-item {
     list-style: none;
     margin: 0 10px;
 }
 
-.site-header-content-list-item>a{
+.site-header-content-list-item>a {
     color: lightgrey;
     text-decoration: none;
 }
@@ -60,4 +84,57 @@ body{
 .site-header-content-list-item:first-child a,
 .site-header-content-list-item>a:hover {
     color: white;
+}
+
+.site-header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.site-header>.site-header-content {
+    width: 70%;
+    align-self: center;
+}
+
+.site-header-content-image-wrapper {
+    overflow: hidden;
+    max-width: 500px;
+}
+
+.site-header-content-image-wrapper img {
+    width: 100%;
+}
+
+.site-header-content-description h1 {
+    font-size: 72px;
+    margin-bottom: 0;
+}
+
+.site-header-content-description p {
+    font-size: 24px;
+}
+
+.modern-layout-section {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.modern-layout-section-heading {
+    color: rgba(209, 51, 91);
+    font-size: 32px;
+    font-weight: 300;
+    margin: 10px 0;
+}
+
+.modern-layout-section-benefit>i {
+    font-size: 48px;
+    color: rgba(209, 51, 91);
+}
+
+.modern-layout-section-subtitle {
+    font-size: 20px;
+    font-weight: bold;
 }
