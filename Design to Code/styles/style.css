@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import 'https://use.fontawesome.com/releases/v5.14.0/css/all.css';
-
+@import "reset.css";
 
 body {
     font-family: "Open sans", sans-serif;
