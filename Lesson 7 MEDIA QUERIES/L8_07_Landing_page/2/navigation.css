@@ -97,7 +97,8 @@ header.site-title nav ul li a:focus, header.site-title nav ul li a:hover {
         padding-bottom: 0;
     }
 
-    .nav-togle:checked + header.site-title nav ul li a:focus, .nav-togle:checked + header.site-title nav ul li a:hover {
+    .nav-togle:checked + header.site-title nav ul li a:focus,
+    .nav-togle:checked + header.site-title nav ul li a:hover {
         color: white;
         background-color: rgb(76, 99, 122);
     }
