@@ -60,7 +60,6 @@
 .team>h2::after{
     position: relative;
     content: ' ';
-    width: 3em;
     height: 2px;
     width: 50%;
     background: black;
@@ -75,4 +74,76 @@
     flex-flow: row wrap;
     justify-content: space-around;
     width: 100%;
+}
+
+.newsletter {
+    background-color:#68347B;
+    padding: 0.5em 0 3em;
+    box-shadow: 0 -0.5em 1em 0 #68347B;
+}
+
+.newsletter h2 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+
+.newsletter>h2::after{
+    position: relative;
+    content: ' ';
+    width: 3em;
+    height: 3px;
+    background: black;
+    align-self: center;
+    text-align: center;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.newsletter form {
+    width: 30em;
+    margin: 0 auto;
+}
+
+.newsletter input[type="email"] {
+    color: black;
+    background-color: white;
+    padding: 0.5em 1em;
+    border: 0.1em solid black;
+    border-radius: 0.2em;
+    width: 70%;
+}
+
+.newsletter input[type="submit"] {
+    color: black;
+    background-color: white;
+    padding: 0.5em 1em;
+    border: 0.1em solid black;
+    border-radius: 0.2em;
+}
+
+.newsletter input[type="submit"]:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 500px) {
+    .newsletter form {
+        width: 25em;
+    }
+
+    section.newsletter form input[type="email"] {
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 300px) {
+    section.newsletter form {
+        width: 10em;
+    }
+
+    section.newsletter form input[type="email"] {
+        width: 100%;
+    }
 }
