@@ -1,0 +1,85 @@
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    position: sticky;
+    bottom: 0;
+    padding: 3em 6em;
+    box-shadow: inset 0 1em 0.8em -0.5em gray;
+}
+
+footer>section {
+    display: flex;
+    flex: 0 0 28%;
+}
+
+footer li{
+    list-style: none;
+}
+
+.site-advert .site-advert-title>a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.site-advert .site-advert-title>a:hover {
+    color: #730078;
+    ;
+}
+
+.site-advert,
+.sitemap,
+.contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.sitemap>ul{
+    flex-wrap: wrap;
+}
+
+.sitemap>ul,
+.contacts>ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sitemap>ul>li{
+    list-style: none;
+    flex-basis: 50%;
+}
+
+.sitemap>ul>li>a{
+    color: black;
+    text-decoration: none;
+}
+
+.sitemap>ul>li>a:hover{
+    color: #730078;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.contacts>ul>li>i{
+    margin-right: 1em;
+}
+
+.contacts>ul>li>span{
+    margin-right: 2em;
+}
+
+@media screen and (max-width: 899px){
+    footer {
+        padding: 2em 3em;
+        flex-flow: column nowrap;
+    }
+
+    .contacts>ul{
+        flex-direction: column;
+    }
+}
