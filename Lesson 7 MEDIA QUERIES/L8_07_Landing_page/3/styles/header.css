@@ -1,11 +1,13 @@
 body>div>header{
-    width: 80%;
+    width: 100%;
     display: flex;
-    margin: 10px auto;
+    top: 0;
+    padding: 3em 6em;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
     position: sticky;
+    background: white;
     top: 10px;
 }
 
@@ -73,7 +75,7 @@ body>div>header{
 
 @media screen and (max-width: 899px){
     body>div>header{
-        width: 90%;
+        padding: 2em 3em;
     }
 
     .navigation{

@@ -7,6 +7,12 @@
     margin: 20px auto;
 }
 
+@media screen and (max-width: 899px){
+    .main-advert{
+        width: 90%;
+    }
+}
+
 .main-advert>article{
     display: flex;
     flex-basis: 40%;
@@ -14,6 +20,7 @@
 
 .main-advert .content{
     flex-direction: column;
+    margin-right: 2em;
 }
 
 .main-advert .image-wrapper img{
@@ -35,4 +42,37 @@
     color: white;
     background-color: #730078;
     cursor: pointer;
+}
+
+.team {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.team>h2{
+    display: flex;
+    flex-direction: column;
+}
+
+.team>h2::after{
+    position: relative;
+    content: ' ';
+    width: 3em;
+    height: 2px;
+    width: 50%;
+    background: black;
+    align-self: center;
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.team-cards-wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 100%;
 }

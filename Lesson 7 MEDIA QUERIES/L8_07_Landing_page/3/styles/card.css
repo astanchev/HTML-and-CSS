@@ -1,0 +1,52 @@
+.card {
+    display: flex;
+    flex-flow: column wrap;
+    flex: 0 1 28%;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 0.5em;
+}
+
+.card .card-image{
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+}
+
+.card .card-image img{
+    width: 100%;
+    height: auto;
+    border: 0.5em solid rgba(219, 219, 219, 0.7);
+    border-radius: 50%;
+    box-shadow: 0 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
+}
+
+.card-content .name,
+.card-content .job,
+.card-content .description{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.card-content .name{
+    font-weight: bold;
+}
+
+.card-content .job{
+    margin-bottom: 20px;
+}
+
+.card-content .description{
+    font-style: italic;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 899px){
+    .card{
+        flex-basis: 45%;
+    }
+}
