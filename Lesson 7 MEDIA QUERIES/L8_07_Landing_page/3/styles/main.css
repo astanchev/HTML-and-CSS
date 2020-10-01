@@ -1,0 +1,38 @@
+.main-advert{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 20px auto;
+}
+
+.main-advert>article{
+    display: flex;
+    flex-basis: 40%;
+}
+
+.main-advert .content{
+    flex-direction: column;
+}
+
+.main-advert .image-wrapper img{
+    width: 50%;
+}
+
+.main-advert .content button{
+    color: black;
+    background-color: white;
+    font-size: 0.8em;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    border: 0.1em solid black;
+    border-radius: 0.2em;
+    max-width: 50%;
+}
+
+.main-advert .content button:hover{
+    color: white;
+    background-color: #730078;
+    cursor: pointer;
+}

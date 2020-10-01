@@ -21,8 +21,6 @@ footer li{
     text-decoration: none;
     text-transform: capitalize;
     color: black;
-    font-size: 1.5em;
-    font-weight: bolder;
 }
 
 .site-advert .site-advert-title>a:hover {
@@ -65,6 +63,10 @@ footer li{
     text-decoration: underline;
 }
 
+.contacts>ul{
+    flex-direction: column;
+}
+
 .contacts>ul>li>i{
     margin-right: 1em;
 }
@@ -78,9 +80,5 @@ footer li{
         padding: 2em 3em;
         flex-flow: column nowrap;
         position: relative;
-    }
-
-    .contacts>ul{
-        flex-direction: column;
     }
 }

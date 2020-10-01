@@ -31,8 +31,6 @@ body>div>header{
 .logo-title>a{
     text-decoration: none;
     text-transform: capitalize;
-    font-size: 2rem;
-    font-weight: bolder;
     color: #730078;
 }
 
