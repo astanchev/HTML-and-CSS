@@ -75,6 +75,7 @@ body>div>header{
 
 @media screen and (max-width: 899px){
     body>div>header{
+        top: 0;
         padding: 2em 3em;
     }
 
