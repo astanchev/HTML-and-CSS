@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import "./reset.css";
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #FFD9B0;
+}
+
+.card {
+    display: flex;
+    max-width: 1200px;
+    width: 70%;
+    margin: 50px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #111111;
+    color: white;
+    justify-content: space-between;
+}
+
+.img-wrapper {
+    display: inline-block;
+    overflow: hidden;
+    width: 65%;
+}
+
+.img-wrapper img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.form-wrapper {
+    display: inline-block;
+    width: 40%;
+    margin: 50px;
+}
+
+.form-wrapper h3 {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.form-wrapper form {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+
+::placeholder{
+    color: rgba(178, 175, 172, 0.8);
+    font-size: 1em;
+}
+
+.form-wrapper form input:not(:last-child){
+    background: transparent;
+    outline: none;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-bottom: 1px solid rgba(178, 175, 172, 0.8);
+    margin: 10px 0;
+}
+
+.form-wrapper form input:not(:last-child):focus,
+.form-wrapper form input:not(:last-child):hover{
+    outline: 1px solid rgba(178, 175, 172, 0.8);
+}
+
+.form-wrapper form input[type="submit"]{
+    background: #EDB77D;
+    color: white;
+    align-self: flex-start;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: bold;
+    border: none;
+}
+
+.form-wrapper form input[type="submit"]:focus,
+.form-wrapper form input[type="submit"]:hover{
+        outline-color: rgba(178, 175, 172, 0.8);
+}
