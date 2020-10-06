@@ -62,7 +62,8 @@ blockquote p {
     margin-top: 0;
 }
 
-.text-right {
+blockquote cite.text-right {
+    display: block;
     text-align: right;
 }
 
