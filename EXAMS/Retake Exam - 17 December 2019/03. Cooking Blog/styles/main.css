@@ -1,0 +1,41 @@
+.main-header {
+    background: url("../Requirements-and-Resources/Media/craving.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-header h2{
+    color: white;
+    margin-top: 3.5rem;
+    margin-bottom: 0.2rem;
+}
+
+.main-header-search{
+    margin-bottom: 6rem;
+    display: inline-block;
+    position: relative;
+}
+
+.main-header-search>input{
+    background-color:  rgba(230, 227, 222, 0.5);
+    border: none;
+    outline: none;
+    padding-left: 1.5em;
+    width: 300px;
+}
+
+.main-header-search::before{
+    font-family: "Font Awesome 5 Free";
+    content: '\f002';
+    position: absolute;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: rgb(85, 73, 56);
+    left: 2%;
+    top: 10%;
+}
