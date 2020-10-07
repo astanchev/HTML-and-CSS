@@ -1,0 +1,38 @@
+.nav-header{
+    padding: 10px 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-header a{
+    text-decoration: none;
+    color: rgb(85, 73, 56);
+}
+
+.nav-header-menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.nav-header-menu ul>li{
+    display: inline-block;
+}
+
+.btn.btn-login {
+    padding: 0.3rem 0.5rem ;
+    color: white;
+    background-color: rgb(85, 73, 56);
+    margin-right: 1.5em;
+    outline: none;
+}
+
+.btn.btn-search{
+    font-weight: bold;
+    color: rgb(85, 73, 56);
+    background: transparent;
+    border: none;
+    outline: none;
+}
