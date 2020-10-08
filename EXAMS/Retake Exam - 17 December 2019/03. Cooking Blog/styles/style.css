@@ -20,3 +20,7 @@ section.main-footer-wrapper {
     justify-content: center;
     align-items: center;
 }
+
+.btn{
+    cursor: pointer;
+}
