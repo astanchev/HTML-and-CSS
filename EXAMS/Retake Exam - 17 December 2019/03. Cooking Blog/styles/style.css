@@ -9,3 +9,14 @@
 body {
     background: rgb(230, 227, 222);
 }
+
+section.main-footer-wrapper {
+    background: url('../Requirements-and-Resources/Media/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

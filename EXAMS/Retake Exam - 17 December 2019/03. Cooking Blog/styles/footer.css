@@ -1,11 +1,10 @@
 footer{
     display: flex;
-    padding: 1em 5em;
+    width: 100%;
+    padding: 1.2em 3em;
     justify-content: space-between;
     align-items: center;
     background: rgba(230, 227, 222, 0.8);
-    position: relative;
-    bottom: 3em;
 }
 
 footer section ul{

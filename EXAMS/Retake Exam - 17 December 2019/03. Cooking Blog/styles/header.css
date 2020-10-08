@@ -21,7 +21,7 @@
     display: inline-block;
 }
 
-.btn.btn-login {
+.btn.btn-filled {
     padding: 0.3rem 0.5rem ;
     color: white;
     background-color: rgb(85, 73, 56);
@@ -29,7 +29,7 @@
     outline: none;
 }
 
-.btn.btn-search{
+.btn.btn-transparent{
     font-weight: bold;
     color: rgb(85, 73, 56);
     background: transparent;
