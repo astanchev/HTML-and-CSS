@@ -1,5 +1,5 @@
 .nav-header{
-    padding: 10px 50px;
+    padding: 0.5em 3em;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -14,11 +14,16 @@
 .nav-header-menu ul{
     display: flex;
     list-style: none;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .nav-header-menu ul>li{
     display: inline-block;
+}
+
+.nav-header-menu ul>li:not(:first-child){
+    display: inline-block;
+    margin-left: 2rem;
 }
 
 .btn.btn-filled {
@@ -31,7 +36,7 @@
 
 .btn.btn-transparent{
     font-weight: bold;
-    color: rgb(85, 73, 56);
+    color: black;
     background: transparent;
     border: none;
     outline: none;
