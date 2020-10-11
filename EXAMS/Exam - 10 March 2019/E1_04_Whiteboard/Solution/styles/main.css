@@ -67,8 +67,8 @@ main .content-wrapper {
 }
 
 .perfect-for-list li img{
-    margin: 0 auto;
-    width: 70%;
+    margin: 0 auto 5px auto;
+    width: 50%;
     display: block;
 }
 
