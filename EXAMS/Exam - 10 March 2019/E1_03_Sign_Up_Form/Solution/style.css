@@ -1,0 +1,101 @@
+@import 'https://use.fontawesome.com/releases/v5.14.0/css/all.css';
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import "./reset.css";
+
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    background: rgb(235, 240, 240);
+}
+
+.form-wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: stretch;
+    align-items: center;
+    width: 400px;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+.form-wrapper form,
+.form-wrapper h1{
+    width: 100%;
+}
+
+.form-wrapper h1{
+    text-align: center;
+    font-size: 48px;
+    letter-spacing: 3px;
+    border-bottom: 3px solid rgb(0, 122, 204);
+    margin-bottom: 30px;
+}
+
+.form-wrapper{
+    font-size: 18px;
+}
+
+.form-wrapper ul{
+    list-style: none outside;
+}
+
+.form-wrapper label{
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(184, 172, 172);
+}
+
+.input-wrapper{
+    position: relative;
+}
+
+.input-wrapper::before{
+    content: '*';
+    display: inline-block;
+    position: absolute;
+    color: red;
+    margin-right: 2px;
+    left: -10px;
+}
+
+.input-wrapper p{
+    margin-bottom: 20px;
+    padding: 5px;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid rgb(196, 223, 233);
+}
+
+.input-wrapper p i{
+    padding: 0 3px;
+}
+
+.input-wrapper p input{
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    border-left: 1px solid black;
+    width: 90%;
+}
+
+label[for="password"]::after{
+    content: '(minimum 6 characters):';
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 0.8em;
+    color:rgb(195, 210, 220);
+    vertical-align: baseline;
+}
+
+form input[type="submit"]{
+    width: 100%;
+    font-size: 1.2rem;
+    color: white;
+    background: rgb(0, 122, 204);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 8px;
+}
