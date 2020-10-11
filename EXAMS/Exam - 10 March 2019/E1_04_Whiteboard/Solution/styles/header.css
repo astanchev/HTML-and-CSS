@@ -1,0 +1,63 @@
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url('../../Requirements-and-Resources/image/computer-main.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: -1px 4px 3px rgba(0, 0, 0, 1);
+}
+
+.header-content-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    padding: 30px 0;
+}
+
+.header-content-wrapper nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content-wrapper nav ul li a {
+    text-decoration: none;
+}
+
+.header-content-wrapper nav {
+    margin-bottom: 50px;
+}
+
+.header-content-wrapper p {
+    width: 40%;
+    margin: 30px auto;
+}
+
+.header-content-wrapper h1,
+.header-content-wrapper p {
+    text-align: center;
+}
+
+.header-content-wrapper a{
+    color: white;
+}
+
+.header-content-wrapper>a {
+    display: block;
+    text-align: center;
+    margin: 50px auto;
+    text-decoration: none;
+}
+
+.header-content-wrapper button {
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    background: rgb(0, 208, 142);
+    display: block;
+    margin: 50px auto;
+    cursor: pointer;
+}
