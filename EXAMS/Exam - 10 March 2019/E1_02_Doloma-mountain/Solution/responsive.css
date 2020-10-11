@@ -1,0 +1,23 @@
+@media screen and (max-width: 1100px){
+    .team-description ul {
+        flex-wrap: wrap;
+    }
+
+    .team-description ul li {
+        flex-basis: 48%;
+        margin-bottom: 3%;
+    }
+
+    .blog-news ul {
+        flex-wrap: wrap;
+    }
+
+    .blog-news ul .item {
+        flex-basis: 53%;
+        margin-bottom: 3%;
+    }
+
+    .blog-news ul .item .content{
+        flex-grow: 1 ;
+    }
+}
