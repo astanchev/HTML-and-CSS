@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import 'https://use.fontawesome.com/releases/v5.14.0/css/all.css';
+@import "./reset.css";
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    width: 1200px;
+}
+
+.page-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 50px auto;
+}
+
+.page-wrapper ul{
+    list-style: none outside;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: stretch;
+}
+
+.page-wrapper ul li{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(244, 245, 247);
+    position: relative;
+}
+
+.page-wrapper ul li:not(:last-child){
+    margin-bottom: 5px;
+}
+
+.page-wrapper ul li i{
+    color: rgb(35, 190, 94);
+    padding-right: 20px;
+}
+
+.btn{
+    padding: 8px 15px;
+    color: white;
+    background: rgb(66, 171, 248);
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    align-self: flex-end;
+}
