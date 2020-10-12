@@ -1,0 +1,14 @@
+@media screen and (max-width: 768px){
+    .gallery > * {
+        width: 100%;
+    }
+
+    .spotlight > * {
+        width: 100%;
+    }
+
+    .spotlight .inner{
+        text-align: center;
+        padding: 1rem;
+    }
+}
