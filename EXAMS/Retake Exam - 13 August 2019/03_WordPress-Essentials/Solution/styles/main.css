@@ -20,3 +20,217 @@
     font-weight: bold;
     border-bottom: 2px solid rgb(38, 72, 109);
 }
+
+.main-header{
+    display: flex;
+    position: relative;
+    flex-flow: column wrap;
+    align-items: center;
+    color: white;
+    background: #234465 url('../images/details-background.png') no-repeat top center ;
+    background-size: cover;
+    z-index: 0;
+}
+
+.main-header h1{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.main-header ul{
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.main-header ul li i {
+    font-size: 1.5em;
+    margin-right: 3px;
+}
+
+.main-header ul li:not(:last-child){
+    margin-right: 20px;
+}
+
+.main-btn{
+    margin: 20px 0;
+    padding: 6px 50px;
+}
+
+.main-header img{
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    opacity: .5;
+    z-index: -1;
+    width: 40%;
+    transform: rotate(20deg);
+}
+
+main>section {
+    display: flex;
+    width: 80%;
+    margin:  10px auto;
+    position: relative;
+    z-index: 0;
+}
+
+.main-about{
+    margin-top: 20px;
+    background-color: rgb(242, 242, 242);
+    padding: 10px 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(35, 68, 101);
+}
+
+.main-about .main-btn{
+    margin-bottom: 5px;
+}
+
+.main-about h5{
+    margin-bottom: 10px;
+}
+
+main section>h5:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    border-bottom: 3px solid rgb(255, 160, 0);
+}
+
+.main-skills,
+.main-topics,
+.main-info{
+    background-color: rgb(242, 242, 242);
+    padding: 10px 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-skills h5,
+.main-topics h5{
+    margin-bottom: 20px;
+    color: rgb(35, 68, 101);
+}
+
+.main-skills ul,
+.main-topics ul{
+    list-style: none;
+    display: flex;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main-skills ul li,
+.main-topics ul li{
+    flex: 0 0 48%;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.main-skills ul li i{
+    font-size: 1.5em;
+    color: rgb(255, 160, 0);
+    margin-right: 5px;
+}
+
+.main-topics ul li{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: bolder;
+    font-size: 0.7em;
+    color: rgba(0, 0, 0, 0.6);
+    background-color: rgb(218, 218, 218);
+    padding: 5px 10px;
+    border-left: 3px solid rgb(35, 68, 101);
+    margin-bottom: 10px;
+}
+
+.main-topics ul li span{
+    color: rgb(35, 68, 101);
+    font-weight: bolder;
+    flex-basis: 2em;
+}
+
+.main-recommendations {
+    background-color: rgb(255, 160, 0);
+    color: white;
+    padding: 10px 50px 20px 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-recommendations h5{
+    margin-bottom: 10px;
+}
+
+.main-recommendations h5:after{
+    border-bottom: 3px solid white;
+}
+
+.main-info{
+    align-items: flex-start;
+    padding: 10px 20px;
+}
+
+.main-info>h6{
+    line-height: 1;
+    font-weight: bolder;
+    color: rgb(255, 160, 0);
+}
+
+.main-info p:nth-child(1){
+    margin-bottom: 10px;
+}
+
+.main-info p:nth-child(2){
+    margin-bottom: 5px;
+}
+
+.main-info>p a{
+    color: rgb(51, 122, 183);
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+
+.main-info-two-color{
+    width: 100%;
+    color: white;
+    position: relative;
+    bottom: -15px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.3);
+}
+
+.main-info-two-color article{
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px 10px 10px 10px;
+}
+
+.main-info-two-color article h6{
+    flex: 0 0 30%;
+}
+
+.main-info-two-color-blue{
+    background-color: rgb(35, 68, 101);
+}
+
+.main-info-two-color-orange{
+    background-color: rgb(255, 160, 0);
+}
+
+main>.main-btn{
+    display: block;
+    margin: 10px auto 40px auto;
+}
