@@ -191,11 +191,11 @@ main section>h5:after {
     color: rgb(255, 160, 0);
 }
 
-.main-info p:nth-child(1){
-    margin-bottom: 10px;
+.main-info-first-p{
+    margin-bottom: 15px;
 }
 
-.main-info p:nth-child(2){
+.main-info-second-p{
     margin-bottom: 5px;
 }
 
