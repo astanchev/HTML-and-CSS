@@ -1,0 +1,53 @@
+body>header {
+    background-color: rgb(35, 68, 101);
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.header-wrapper {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-wrapper ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    flex: 0 0 30%;
+}
+
+.header-logo ul li:first-child{
+    margin-right: 10px;
+    display: flex;
+}
+
+.header-logo ul li:first-child img{
+    width: 100px;
+    align-self: center;
+}
+
+.btn-pill{
+    padding: 5px 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(255, 160, 0);
+    color: white;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.header-navigation a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.header-navigation li{
+    margin-right: 15px;
+}

@@ -1,0 +1,22 @@
+.main-navigation-ul{
+    display: flex;
+    width: 80%;
+    justify-content: flex-start;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.main-navigation-ul li{
+    padding: 5px 0;
+}
+
+.main-navigation-ul li:first-child{
+    color: rgb(212, 144, 28);
+    margin-right: 30px;
+}
+
+.main-navigation-ul li:last-child{
+    color: rgb(38, 72, 109);
+    font-weight: bold;
+    border-bottom: 2px solid rgb(38, 72, 109);
+}
