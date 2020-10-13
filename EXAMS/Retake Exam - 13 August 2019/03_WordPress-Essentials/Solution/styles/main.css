@@ -73,7 +73,7 @@
 main>section {
     display: flex;
     width: 80%;
-    margin:  10px auto;
+    margin:  15px auto;
     position: relative;
     z-index: 0;
 }
@@ -106,7 +106,8 @@ main section>h5:after {
 
 .main-skills,
 .main-topics,
-.main-info{
+.main-info,
+.main-trainers{
     background-color: rgb(242, 242, 242);
     padding: 10px 50px;
     flex-direction: column;
@@ -115,7 +116,8 @@ main section>h5:after {
 }
 
 .main-skills h5,
-.main-topics h5{
+.main-topics h5,
+.main-trainers h5{
     margin-bottom: 20px;
     color: rgb(35, 68, 101);
 }
@@ -208,7 +210,7 @@ main section>h5:after {
     width: 100%;
     color: white;
     position: relative;
-    bottom: -15px;
+    bottom: -12px;
     box-shadow: 5px 5px 10px rgba(0,0,0,.3);
 }
 
@@ -228,6 +230,39 @@ main section>h5:after {
 
 .main-info-two-color-orange{
     background-color: rgb(255, 160, 0);
+}
+
+.main-trainers-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-trainers-content-details{
+    flex: 0 1 85%;
+    margin-bottom: 40px;
+}
+.main-trainers-content-image-wrapper{
+    flex: 0 0 15%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.main-trainers-content-image-wrapper-image{
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.main-trainers-content-details h5{
+    margin-bottom: 2px;
+}
+
+.main-trainers-content-image-wrapper img{
+    width: 100%;
 }
 
 main>.main-btn{
