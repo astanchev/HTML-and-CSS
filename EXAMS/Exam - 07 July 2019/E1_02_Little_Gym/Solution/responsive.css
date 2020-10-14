@@ -1,0 +1,127 @@
+@media (max-width: 1024px) {
+
+    html {
+        font-size: 14px;
+    }
+
+    main.site-main {
+        margin: 0;
+    }
+
+    section.entry-header {
+        border-radius: 0;
+    }
+
+    .site-logos-container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .site-logos-container .site-logo {
+        margin-right: 0;
+    }
+
+    .site-information-image {
+        margin: 1em;
+        flex-shrink: 1;
+    }
+}
+
+@media (max-width: 768px) {
+
+    html {
+        font-size: 12px;
+    }
+
+    .site-navigation {
+        display: none;
+    }
+
+    .site-logos-container {
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .site-logos-container .site-logo {
+        flex-basis: 30%;
+        margin-right: 0;
+    }
+
+    .site-information-image {
+        display: none;
+    }
+
+    .site-information-text {
+        flex: 1 1 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .site-information-text .entry-description {
+        width: 80%;
+    }
+
+    .site-form{
+        margin-top: 0;
+    }
+
+    form {
+        display: flex;
+        padding-top: 2rem;
+        width: 40rem;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .site-form-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .site-form-container p {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: stretch;
+    }
+
+    .site-form label{
+        padding: 0 0 5px 0;
+    }
+
+    .site-form input{
+        align-self: stretch;
+    }
+
+    .site-form button {
+        margin: 0 auto;
+    }
+
+    .site-blog-container{
+        margin-top: 0;
+        padding: 3rem;
+    }
+
+    .site-posts {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0;
+      }
+
+      .site-post {
+        width: 70%;
+        margin-bottom: 1rem;
+      }
+
+      .site-footer{
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+      }
+}
