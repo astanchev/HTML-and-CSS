@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import 'https://use.fontawesome.com/releases/v5.14.0/css/all.css';
+@import "./reset.css";
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+}
+
+
+.statistics {
+    width: 70%;
+    margin: 100px auto;
+    background: linear-gradient(rgba(40, 68, 114, 0.7), rgba(40, 68, 114, 0.7)), url('../../Requirements-and-Resources/images/image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.statistics::after {
+    font-family: "Font Awesome 5 Free";
+    content: '\f00d';
+    position: absolute;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    top: 0;
+    right: 0;
+    padding: 5px 10px;
+}
+
+.statistics article {
+    margin: 50px 20px;
+    text-align: center;
+}
+
+.statistics article i {
+    color: rgb(236, 132, 33);
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.statistics article p{
+    margin: 5px 0;
+}
