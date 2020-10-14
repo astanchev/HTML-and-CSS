@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import "./reset.css";
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 20px;
+    background: rgb(0, 18, 22);
+}
+
+header h1{
+    color: rgb(13, 245, 235);
+}
+
+header p {
+    color: white;
+
+}
+
+.image-section{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.image-section-container{
+    flex: 0 1 30%;
+    border: 1px solid black;
+    padding: 5px 15px;
+}
+
+.image-section-container img{
+    display: block;
+    width: 100%;
+}
+
+.image-section-container p{
+    padding: 5px 0;
+    font-size: 0.6em;
+}
+
+.image-section-content{
+    flex: 0 1 70%;
+    padding: 15px;
+}
+
+.details-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.details-section h3{
+    display: inline-block;
+    align-self: flex-start;
+    padding: 5px 10px;
+    color: white;
+    background-color: rgb(3, 20, 22);
+}
+
+.details-section ul{
+    list-style: none outside;
+    padding: 20px;
+    background-color: rgb(217, 235, 235);
+}
