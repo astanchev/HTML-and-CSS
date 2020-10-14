@@ -5,8 +5,3 @@
 @import "./header.css";
 @import "./main.css";
 @import "./footer.css";
-
-body{
-    width: 1200px;
-    margin: 0 auto;
-}

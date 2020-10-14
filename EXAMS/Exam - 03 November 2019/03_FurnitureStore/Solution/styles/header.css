@@ -1,0 +1,47 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: rgb(249, 55, 0);
+    color: white;
+    font-size: 14px;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+.header-navigation ul{
+    list-style: none;
+    display: flex;
+}
+
+.header-navigation ul li:not(:first-child){
+    margin-left: 20px;
+}
+
+.header-search{
+    background-color: white;
+    display: flex;
+    align-items: stretch;
+
+}
+
+.header-search input{
+    padding: 3px 10px;
+    width: 25vw;
+    outline: none;
+    border: 1px solid rgb(169, 169, 169);
+}
+
+.header-search i {
+    padding: 10px 20px;
+    border: 1px solid rgb(182, 175, 175);
+    background-color: rgb(182, 175, 175);
+}
+
+.header-account i{
+    margin-right: 10px;
+}
