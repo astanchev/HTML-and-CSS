@@ -5,3 +5,7 @@
 @import "./header.css";
 @import "./main.css";
 @import "./footer.css";
+
+.main-and-footer-wrapper{
+    background-color: rgb(240, 228, 228);
+}
