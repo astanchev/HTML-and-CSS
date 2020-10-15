@@ -3,16 +3,16 @@
 @import "./reset.css";
 @import "./typography.css";
 
-body{
+body {
     width: 1000px;
     margin: 0 auto;
 }
 
-body ul{
+body ul {
     list-style: none outside;
 }
 
-.page-header{
+.page-header {
     height: 50vh;
     position: relative;
     background: url('../../Requirements-and-Resources/image/image.jpg');
@@ -22,12 +22,12 @@ body ul{
     font-size: 0.8rem;
 }
 
-.header-logo{
+.header-logo {
     position: absolute;
     top: 1rem;
     left: 2rem;
     width: 11rem;
-    box-shadow: 2px 3px 15px -2px rgba(0,0,0,1);
+    box-shadow: 2px 3px 15px -2px rgba(0, 0, 0, 1);
     padding: 1rem 4rem 0 1rem;
 }
 
@@ -39,13 +39,13 @@ body ul{
     padding-bottom: 0.2rem;
 }
 
-.header-logo p{
+.header-logo p {
     padding-top: 0.3rem;
     padding-bottom: 1rem;
     font-size: 0.7rem;
 }
 
-.header-about{
+.header-about {
     position: absolute;
     top: 10rem;
     right: 2rem;
@@ -57,27 +57,27 @@ body ul{
     margin-left: auto;
 }
 
-.header-about i{
+.header-about i {
     color: #8D8682;
     margin-bottom: 1em;
 }
 
-.header-about p{
+.header-about p {
     color: #FFFFFF;
     padding-bottom: 0;
 }
 
-.page-content{
+.page-content {
     display: flex;
     height: 50vh;
 }
 
-.main-and-footer-wrapper{
+.main-and-footer-wrapper {
     flex: 1 1 70%;
     background: rgb(242, 240, 243);
 }
 
-.main-and-footer-wrapper main{
+.main-and-footer-wrapper main {
     padding: 30px 50px 20px 50px;
     font-size: 0.8rem;
 }
@@ -90,17 +90,17 @@ body ul{
     margin-bottom: 10px;
 }
 
-.main-and-footer-wrapper h1{
+.main-and-footer-wrapper h1 {
     font-size: 1.5rem;
     margin-bottom: 10px;
 }
 
 .main-and-footer-wrapper h1,
-.services span{
+.services span {
     text-transform: uppercase;
 }
 
-aside{
+aside {
     background-color: rgb(186, 177, 173);
     display: flex;
     flex: 1 1 30%;
@@ -109,33 +109,60 @@ aside{
     padding: 40px 20px;
 }
 
-aside section .big-number{
+aside section .big-number {
     color: white;
     font-size: 3em;
     font-weight: 300;
     line-height: 1;
 }
 
-aside section .details{
+aside section .details {
     text-transform: uppercase;
     line-height: 1;
 }
 
-footer > * {
+footer>* {
     padding: 0 50px;
 }
 
-footer h1{
+footer h1 {
     border-bottom: 2px solid black;
 
 }
 
-footer .contacts{
+footer .contacts {
     display: flex;
     flex-wrap: wrap;
+    margin: 10px 0;
 }
 
-footer form{
+footer form {
     display: flex;
     justify-content: flex-start;
+    margin-top: 20px;
+}
+
+footer form input {
+    margin-right: 10px;
+    flex-basis: 40%;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    background-color: rgb(186, 177, 173);
+}
+
+footer form ::placeholder {
+    color: white;
+}
+
+footer form .btn-green,
+footer form input {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+}
+
+footer form .btn-green {
+    padding: 8px 20px;
+    background-color: rgb(103, 120, 77);
 }
