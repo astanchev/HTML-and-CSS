@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import 'https://use.fontawesome.com/releases/v5.14.0/css/all.css';
+@import "./reset.css";
+
+body {
+    font: 16px/1.5 'PT Serif', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    margin: 100px auto;
+    width: 800px;
+    height: 500px;
+    box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.75);
+    background: url('../../Requirements-and-Resources/image/image1.png');
+    background-repeat: repeat-y;
+}
+
+.content-wrapper{
+    flex: 1 1 50%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content-wrapper h1 {
+    text-align: center;
+    border-bottom: 2px dotted rgb(86, 141, 20);
+}
+
+.subtitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ingredients{
+    list-style: none;
+}
+
+.ingredients span{
+    font-weight: bold;
+    color:  rgb(86, 141, 20);
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table td,
+table th{
+    border: 2px solid  rgb(86, 141, 20);
+}
+
+.image-wrapper{
+    flex: 1 1 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.image-wrapper img{
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
