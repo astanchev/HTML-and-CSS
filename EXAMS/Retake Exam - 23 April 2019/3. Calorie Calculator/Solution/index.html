@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calorie Calculator</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <article class="card">
+        <section class="image-wrapper">
+            <img src="../Requirements-and-Resources/image/image.png" alt="Tape measure">
+        </section>
+
+        <section class="content-wrapper">
+            <h1>CALORIE CALCULATOR</h1>
+            <div class="units">
+                <p class="yellow">Standart units (US)</p>
+                <p class="grey">Metric units</p>
+            </div>
+
+            <form>
+                <p class="gender">
+                    <label for="gender">Gender</label>
+                    <select id="gender">
+                        <option value="Female">Female</option>
+                        <option value="Male">Male</option>
+                    </select>
+                </p>
+                <p class="age">
+                    <label for="age">Age</label>
+                    <input type="number" placeholder="Years..." id="age">
+                </p>
+                <p class="weight">
+                    <label for="weight">Weight</label>
+                    <input type="number" placeholder="Pounds..." id="weight">
+                </p>
+                <p class="height">
+                    <label>Height</label>
+                    <input type="number" placeholder="Feet...">
+                    <input type="number" placeholder="Inches...">
+                </p>
+                <input type="submit" value="Calculate" class="btn btn-blue"></input>
+            </form>
+        </section>
+    </article>
+</body>
+
+</html>
