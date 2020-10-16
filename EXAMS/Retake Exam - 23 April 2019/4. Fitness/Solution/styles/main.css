@@ -1,0 +1,99 @@
+.main-welcome-content,
+.main-coaches-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+main h4{
+    font-size: 1.3em;
+    letter-spacing: 1.5px;
+    font-weight: bolder;
+}
+
+.main-welcome {
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.main-welcome h2,
+.main-coaches h2{
+    font-weight: bold;
+    position: relative;
+    flex-basis: 100%;
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 1.5px;
+}
+
+.main-welcome h2::after,
+.main-coaches h2::after{
+    content: '';
+    display: block;
+    width: 3%;
+    margin: 20px auto;
+    border-bottom: 3px solid rgb(208, 25, 25);
+}
+
+.main-welcome-card,
+.main-coaches-card{
+    flex: 1 1 25%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+
+.main-welcome-card img{
+    width: 15%;
+    margin-bottom: 15px;
+}
+
+.main-welcome-card h4{
+    margin: 10px 0;
+    color:  rgb(208, 25, 25);
+}
+
+.main-coaches{
+    background-color: rgb(239, 239, 239);
+    padding: 50px 0;
+}
+
+.main-coaches-content{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main-coaches-content img{
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.main-coaches-content h6{
+    margin-bottom: 15px;
+    color: rgb(208, 25, 25);
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.main-coaches-card{
+    flex: 0 0 25%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.main-coaches-content img{
+    width: 100%;
+    display: block;
+}
+
+.main-coaches-card:not(:first-child){
+    margin-left: 60px;
+}

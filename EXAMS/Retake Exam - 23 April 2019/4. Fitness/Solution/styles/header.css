@@ -1,0 +1,86 @@
+.header-contacts {
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(208, 25, 25);
+}
+
+.header-contacts-social{
+    display: flex;
+    list-style: none;
+}
+
+.header-contacts-social li:not(:first-child){
+    margin-left: 15px;
+}
+
+.header-contacts-social li a{
+    color: white;
+}
+
+.header-contacts-phone i,
+.header-contacts-address i{
+    margin-right: 5px;
+}
+
+.header-content{
+    background: url('../../Requirements-and-Resources/image/fitness-main.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.header-content-navigation{
+    padding: 10px 40px;
+}
+
+.header-content-navigation ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-content-navigation a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8em;
+}
+
+.header-content-navigation li:not(:first-child){
+    margin-left: 40px;
+}
+
+.header-content-start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.header-content-start h1{
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    font-size: 3em;
+}
+
+.header-content-start p{
+    width: 55%;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+}
+
+.header-content-start .btn-red{
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    outline: none;
+    margin: 20px 0;
+    background-color: rgb(208, 25, 25);
+}
