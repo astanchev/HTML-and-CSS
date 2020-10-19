@@ -92,7 +92,7 @@ p span input:hover + i {
     color: blue;
 }
 
-@media (max-width: 999px) {
+@media screen and (max-width: 999px) {
     .login-container form>p {
         flex-flow: column wrap;
         justify-content: flex-start;
