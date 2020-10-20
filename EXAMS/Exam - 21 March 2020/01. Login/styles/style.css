@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import 'https://use.fontawesome.com/releases/v5.14.0/css/all.css';
+@import "./reset.css";
+
+body {
+    font: 16px/1.5 'Poppins', sans-serif;
+}
+
+.page-wrapper {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.form-wrapper {
+    flex: 0 0 22rem;
+    font-size: 1.2rem;
+}
+
+.form-wrapper h1 {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 0.4rem;
+}
+
+.form-wrapper form {
+    background: white;
+    padding: 2rem 0 1rem 0;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-wrapper form p {
+    border-bottom: 1px solid rgb(230, 230, 230);
+    padding-bottom: 0.4rem;
+}
+
+.form-wrapper .username {
+    margin-bottom: 2rem;
+}
+
+.form-wrapper .password {
+    margin-bottom: 1.2rem;
+}
+
+.form-wrapper form p i {
+    padding: 0 1.2rem;
+    color: rgb(180, 180, 180);
+}
+
+.form-wrapper form p>input {
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+}
+
+.form-wrapper form p>input::placeholder {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 1.2rem;
+}
+
+.form-wrapper form>input {
+    align-self: center;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(212, 24, 114);
+    font-weight: bold;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 1.5rem;
+    padding: 0.6rem 2.5rem;
+}
+
+img {
+    position: absolute;
+    left: 0;
+    top: -15%;
+    z-index: -1;
+    width: 100%;
+    height: 115%;
+}
