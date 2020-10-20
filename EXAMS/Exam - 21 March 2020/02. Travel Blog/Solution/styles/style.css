@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio&display=swap');
+@import 'https://use.fontawesome.com/releases/v5.14.0/css/all.css';
+@import "./reset.css";
+@import "./typography.css";
+@import "./header.css";
+@import "./main.css";
+@import "./footer.css";
+/*
+body {
+    width: 1600px;
+    margin: 0 auto;
+} */
