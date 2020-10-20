@@ -1,4 +1,5 @@
 @media screen and (max-width: 768px) {
+
     .main-movie ul li {
         padding: 0;
     }
@@ -43,6 +44,7 @@
 }
 
 @media screen and (max-width: 414px) {
+
     header h2 {
         font-size: 1em;
         width: fit-content;
