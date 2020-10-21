@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import 'https://use.fontawesome.com/releases/v5.14.0/css/all.css';
+@import "./reset.css";
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.page-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.page-wrapper h1{
+    text-align: center;
+    position: relative;
+    margin-bottom: 40px;
+    font-size: 3em;
+}
+
+.page-wrapper h1::before{
+    content: url('../images/car.png');
+    display: block;
+    top: -40px;
+    left: 5px;
+}
+
+.about {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.image,
+.content {
+    flex: 0 0 50%;
+    overflow: hidden;
+}
+
+.image img{
+    width: 100%;
+    display: block;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.content>p{
+    margin: 20px 30px 20px 0;
+}
+
+.content ul{
+    list-style: none outside;
+}
+
+.content li {
+    display: flex;
+    align-items: center;
+}
+
+.content li:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.content li img{
+    margin-right: 10px;
+}
+
+.info-heading{
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.content>p,
+.info-content{
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.6);
+}
