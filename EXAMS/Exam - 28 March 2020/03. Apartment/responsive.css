@@ -1,0 +1,213 @@
+@media screen and (max-width: 468px) {
+    .div-header {
+        display: none;
+    }
+
+    .logo-center {
+        width: 25%;
+    }
+
+    header h3 {
+        font-size: 16px;
+    }
+
+    header h1 {
+        margin: auto;
+        width: 100%;
+        font-size: 28px;
+    }
+
+    .button-header {
+        margin: 60px 0 80px 0;
+        font-size: 0.6em;
+    }
+
+    .button-header:hover {
+        background: transparent;
+    }
+
+    .options {
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        align-items: stretch;
+        padding-top: 35px;
+    }
+
+    .options article {
+        text-align: center;
+        border-top: 1px solid white;
+        width: 100%;
+        padding-bottom: 40px;
+    }
+
+
+    main h2 {
+        text-align: center;
+        font-size: 26px;
+    }
+
+    .gallery {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 85px;
+    }
+
+    .gallery article {
+        flex-basis: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .gallery article a {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .gallery article>img {
+        width: 380px;
+        height: 200px;
+        padding-bottom: 20px;
+    }
+
+    .gallery article p {
+        text-align: center;
+        padding-bottom: 15px;
+        font-style: italic;
+        font-size: 16px;
+    }
+
+    .blog-title {
+        display: block;
+        width: 100%;
+        padding: 40px 0 0 0;
+    }
+
+    .blog-title h4>span,
+    .blog-title a {
+        display: none;
+    }
+
+
+    .blog-title h4 {
+        text-align: center;
+        font-size: 24px;
+        padding-bottom: 20px;
+    }
+
+    .blog article img {
+        display: none;
+    }
+
+    .blog article {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #about-blog {
+        width: 100%;
+    }
+
+    #about-blog h3 {
+        font-size: 16px;
+    }
+
+    #about-blog p {
+        font-size: 14px;
+    }
+
+    #about-blog button {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+
+
+    .magazine-title {
+        display: block;
+        width: 100%;
+        padding: 20px 0 0 0;
+    }
+
+    .magazine-title h4 {
+        font-size: 24px;
+        padding-left: 10px;
+    }
+
+    .magazine-title a {
+        display: none;
+    }
+
+
+    .magazine article {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #magazine-img {
+        width: 70%;
+        border: none;
+        margin-top: 20px;
+        padding: 0;
+    }
+
+    .magazine-info {
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .magazine-info h2 {
+        font-size: 24px;
+    }
+
+    .magazine-info h3 {
+        font-size: 18px;
+        padding: 10px 0;
+        text-align: center;
+        font-weight: bolder;
+    }
+
+    .magazine-info img {
+        width: 100%;
+    }
+
+    .magazine-info p {
+        width: 90%;
+        margin: 20px 0 40px 0;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .magazine-info button {
+        margin: 0;
+        font-size: 12px;
+    }
+
+
+    footer {
+        margin-top: 25px;
+        flex-direction: column;
+        align-items: center;
+        background: black;
+        padding: 20px 10px 0 10px 0;
+        color: white;
+        font-weight: lighter;
+    }
+
+    .icons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icons a i.fa {
+        color: white;
+        margin-top: 10px;
+    }
+}
