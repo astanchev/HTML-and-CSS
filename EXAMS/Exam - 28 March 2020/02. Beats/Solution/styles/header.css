@@ -1,0 +1,18 @@
+header{
+    padding: 1em 3em;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav ul a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(160, 160, 160);
+    font-weight: bold;
+    font-size: 0.8em;
+}
