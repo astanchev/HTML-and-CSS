@@ -1,1 +1,25 @@
-/* TODO: Add media queries */
+@media screen and (max-width: 884px) {
+    main {
+        padding: 0.5em;
+    }
+
+    .newsletter-boxes{
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .newsletter-bottom{
+        display: flex;
+    }
+
+    .newsletter-bottom h4,
+    .newsletter-bottom-content{
+        text-align: left;
+    }
+
+    .bottom-logo{
+        width: 15%;
+    }
+}
+
