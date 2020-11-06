@@ -1,0 +1,110 @@
+@media screen and (max-width: 600px) {
+    .banner {
+        padding: 2.5em 0;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .banner h2 {
+        width: 90%;
+        font-size: 1.5em;
+    }
+
+    .banner p {
+        font-size: 1em;
+    }
+
+    .banner .actions {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    .banner .actions {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    .banner .actions li {
+        width: 100%;
+        align-self: stretch;
+        display: flex;
+        justify-content: stretch;
+    }
+
+    .banner .actions .special {
+        width: 100%;
+    }
+
+    .wrapper>.inner {
+        width: 90%;
+    }
+
+    .wrapper>.inner .features {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .wrapper>.inner .features .feature {
+        width: 100%;
+    }
+
+    body>section.wrapper.style2.special>div {
+        width: 100%;
+    }
+
+    section.wrapper.style2.special {
+        padding: 2em 0;
+    }
+
+    form {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .grid-form .form-control.narrow {
+        width: 100%;
+    }
+
+    body>section.wrapper.style2.special>div>form>ul {
+        display: flex;
+    }
+
+    body>section.wrapper.style2.special>div>form>ul>li {
+        width: 100%;
+        flex-grow: 1;
+        align-self: stretch;
+        justify-content: stretch;
+        display: flex;
+    }
+
+    body>section.wrapper.style2.special>div>form>ul>li>input {
+        width: 100%;
+        align-self: stretch;
+    }
+
+    .footer:before {
+        background-color: #ddd;
+        content: "";
+        height: 1px;
+        left: 5%;
+        position: absolute;
+        top: 0;
+        width: 90%;
+    }
+
+    .footer .copyright {
+        font-size: 0.6em;
+        margin: 0;
+    }
+
+    .footer {
+        padding: 2em 0;
+    }
+}

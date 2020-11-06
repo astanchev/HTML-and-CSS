@@ -1,0 +1,162 @@
+header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 300px;
+}
+
+.header-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.header-navigation-logo {
+    width: 100px;
+}
+
+.header-navigation-logo img {
+    width: 100%;
+}
+
+.header-navigation a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 14px;
+}
+
+.header-navigation ul {
+    list-style: none;
+    display: flex;
+}
+
+.header-navigation ul li:not(:last-child) {
+    margin-right: 10px;
+}
+
+.header-offers {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(84, 84, 109);
+    position: relative;
+}
+
+.header-offers::before{
+    content: url('../../images/calculator-icon.svg');
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    display: block;
+    top: 120px;
+    left: -80px;
+}
+
+.header-offers h1 {
+    text-align: center;
+    margin: 10px 0 0 0;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: white;
+    position: relative;
+    bottom: -80px;
+}
+
+.headers-offers-cards {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: -150px;
+}
+
+.header-card {
+    flex-basis: 31%;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(84, 84, 109);
+    text-align: center;
+    box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.header-card h2 {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.header-card p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.header-card-text {
+    height: 280px;
+    padding: 20px;
+    width: 100%;
+    background-color: white;
+}
+
+p.small-text {
+    font-size: 14px;
+}
+
+p.big-text {
+    font-size: 20px;
+}
+
+.header-card-offer {
+    height: 120px;
+    width: 100%;
+    padding: 10px 10px;
+    color: white;
+}
+
+.header-card-offer.green {
+    background: linear-gradient(90deg, rgba(4, 155, 61, 1) 0%, rgba(72, 212, 126, 1) 100%);
+}
+
+.header-card-offer.blue {
+    background: linear-gradient(90deg, rgba(77, 109, 138, 1) 0%, rgba(97, 153, 205, 1) 100%);
+}
+
+.header-card-offer.violet {
+    background: linear-gradient(90deg, rgba(76, 57, 166, 1) 0%, rgba(137, 122, 223, 1) 100%);
+}
+
+.header-card-offer.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-card-offer.row section {
+    flex-basis: 50%;
+    padding: 0 10px 10px 10px;
+}
+
+.separator {
+    width: 2px;
+    margin: 0 10px;
+    background-color: white;
+}
+
+.header-card-text button {
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    border-radius: 25px;
+    color: white;
+    background-color: rgb(154, 93, 198);
+    margin-top: 50px;
+    box-shadow: 0px 4px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+h2.subtitle {
+    margin-bottom: 10px;
+}
